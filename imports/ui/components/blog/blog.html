@@ -1,0 +1,43 @@
+<div class="inline-menu-container">
+    <ul class="inline-menu">
+        <li ui-sref="home" class="about menu-item">{{ 'home' | translate}}</li>
+        <li ui-sref="about" class="about menu-item">{{ 'about' | translate}}</li>
+        <li ui-sref="blog" class="about menu-item">{{ 'blog' | translate}}</li>
+        <li ui-sref="pictures" class="about menu-item active">{{ 'pictures' | translate}}</li>
+        <li ui-sref="contact" class="about menu-item">{{ 'contact' | translate}}</li>
+    </ul>
+</div>
+<div class="content-blocks blog">
+    <section class="content">
+        <div class="block-content">
+            <h3 class="block-title">{{ 'Blog' | translate}}</h3>
+            <div class="col-md-10 col-md-offset-1">
+                <div class="post">
+                    <div class="post-thumbnail">
+                        <a class="open-post">
+                            <img src="images/meteor2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="post-title">
+                        <a class="open-post" href="http://demo.lion-coders.com/hello/hello-light/post-single.html"><h2>{{ 'Post1Title' | translate}} </h2></a>
+                        <p class="post-info">
+                            <span class="post-author">{{ 'PostedBy' | translate}} Gizem Arslan</span>
+                            <span class="slash"></span>
+                            <span class="post-date">{{ 'Sept' | translate}} 04, 2016</span>
+                            <span class="slash"></span>
+                            <span class="post-catetory">Web</span>
+                        </p>
+                    </div>
+                    <div class="post-body">
+                        <p>{{ 'Post1exp1' | translate}}</p>
+                        <p>{{ 'Post1exp2' | translate}}</p>
+                        <p>{{ 'Post1exp3' | translate}}</p>
+                        <p>{{ 'Post1exp4' | translate}}</p>
+                        <p>{{ 'Post1exp5' | translate}}</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>

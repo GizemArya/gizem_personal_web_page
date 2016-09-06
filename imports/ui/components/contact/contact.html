@@ -1,0 +1,55 @@
+<div class="inline-menu-container">
+    <ul class="inline-menu">
+        <li ui-sref="home" class="about menu-item">{{ 'home' | translate}}</li>
+        <li ui-sref="about" class="about menu-item">{{ 'about' | translate}}</li>
+        <li ui-sref="blog" class="about menu-item">{{ 'blog' | translate}}</li>
+        <li ui-sref="pictures" class="about menu-item active">{{ 'pictures' | translate}}</li>
+        <li ui-sref="contact" class="about menu-item">{{ 'contact' | translate}}</li>
+    </ul>
+</div>
+<div class="content-blocks contact">
+    <section class="content">
+        <div class="block-content">
+            <h3 class="block-title">{{ 'GetInTouch' | translate}}</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-content ">
+                        <div class="contact-icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h5>{{ 'Address' | translate}}</h5>
+                            <p>Ataşehir /İstanbul</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-content ">
+                        <div class="contact-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h5>{{ 'Email' | translate}}</h5>
+                            <p>gizemarslan88@outlook.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form method="POST" action="contact_me.php" id="formcontactus" class="">
+                        <div class="form-group">
+                            <input name="name" type="text" class="form-control requiretop" placeholder="* {{ 'Your Name' | translate}}">
+                        </div>
+                        <div class="form-group">
+                            <input name="email" type="email" class="form-control requiretop" placeholder="* {{ 'Your Email' | translate}}">
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="6" name="message" class="form-control requiretop" placeholder="* {{ 'Your Message' | translate}}"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-dark selected">{{ 'Send Message' | translate}}</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
