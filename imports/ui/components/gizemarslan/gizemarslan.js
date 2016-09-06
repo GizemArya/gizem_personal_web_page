@@ -54,7 +54,7 @@ function config($locationProvider, $urlRouterProvider, $translateProvider) {
         'Skills' :'SKILLS',
         'developerMusician': 'Software Developer & Vocal',
         'hi' : 'Hi ! This is ',
-        'home' : 'Anasayfa',
+        'home' : 'Home',
         'name' : 'Name :',
         'Date of birth ' : 'Date of birth ',
         'June'  : 'June' ,
